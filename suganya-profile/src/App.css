@@ -375,3 +375,23 @@ footer {
     font-size: 1rem;
   }
 }
+
+/* Contact Section */
+.contact-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container div a {
+  color: inherit; /* Keep text color consistent */
+  text-decoration: none; /* Remove underline */
+}
+
+.contact-container div a:hover {
+  text-decoration: underline; /* Add underline on hover for clarity */
+}
+

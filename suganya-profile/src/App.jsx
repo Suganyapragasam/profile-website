@@ -164,33 +164,30 @@ function App() {
       </section>
 
       <section id="contact">
-        <h2>Contact Me</h2>
-        <p>If you have any questions or want to collaborate, feel free to reach out!</p>
-        <p style={{ marginTop: "1rem" }}>
-          📧{" "}
-          <a href="mailto:psuganya281@gmail.com">psuganya281@gmail.com</a>
-          <br />
-          📞 <a href="tel:+971504328094">+971 50 432 8094</a>
-          <br />
-          💬{" "}
-          <a
-            href="https://wa.me/971504328094"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            WhatsApp Chat
-          </a>
-          <br />
-          🔗{" "}
-          <a
-            href="https://www.linkedin.com/in/suganya-pragasam-53a771217"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn Profile
-          </a>
-        </p>
-      </section>
+  <h2>Contact Me</h2>
+  <p>If you have any questions or want to collaborate, feel free to reach out!</p>
+
+  <div className="contact-container">
+    <div>
+      📧 <a href="mailto:psuganya281@gmail.com">psuganya281@gmail.com</a>
+    </div>
+    <div>
+      📞 <a href="tel:+971504328094">+971 50 432 8094</a>
+    </div>
+    <div>
+      💬 <a href="https://wa.me/971504328094" target="_blank" rel="noopener noreferrer">
+        WhatsApp Chat
+      </a>
+    </div>
+    <div>
+      🔗 <a href="https://www.linkedin.com/in/suganya-pragasam-53a771217" target="_blank" rel="noopener noreferrer">
+        LinkedIn Profile
+      </a>
+    </div>
+  </div>
+</section>
+
+
 
       <footer>
         <p>© 2025 Suganya Pragasam. All rights reserved.</p>
