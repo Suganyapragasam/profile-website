@@ -171,9 +171,7 @@ function App() {
     <div>
       📧 <a href="mailto:psuganya281@gmail.com">psuganya281@gmail.com</a>
     </div>
-    <div>
-      📞 <a href="tel:+971504328094">+971 50 432 8094</a>
-    </div>
+
     <div>
       💬 <a href="https://wa.me/971504328094" target="_blank" rel="noopener noreferrer">
         WhatsApp Chat
