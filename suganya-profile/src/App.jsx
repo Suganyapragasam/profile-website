@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import profilePic from "./assets/profile-pic.jpg";
 
+
 function App() {
   const projects = [
     {
